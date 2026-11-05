@@ -1,0 +1,132 @@
+{
+  "study": {
+    "pmid": "41103344",
+    "pmcid": "PMC12527604",
+    "journal": "Journal of Diabetes Research",
+    "year": 2025,
+    "design": "RCT, 4 arms (AT/RT/CT/Control), 12 weeks",
+    "n_randomized": 45,
+    "n_per_arm": {
+      "AT": 11,
+      "RT": 11,
+      "CT": 11,
+      "C": 12
+    },
+    "population": "men, T2DM >3y, with peripheral neuropathy, HbA1c 6.6-12%",
+    "last_bout_to_test_h": 48,
+    "measured_insulin_sensitivity": false,
+    "note_is": "全文无 HOMA/Matsuda/clamp/euglycemic；'insulin sensitivity' 仅出现在引言与讨论叙述中，无数据"
+  },
+  "construct_provenance": {
+    "FPIS": {
+      "type": "formula_derived_not_measured",
+      "formula": {
+        "const": 1.477,
+        "FPG": -0.119,
+        "BMI": 0.079,
+        "HDL_C": -0.523
+      },
+      "log10": true,
+      "inputs_are_metabolic_covariates": true,
+      "cited_reference": 25
+    },
+    "SPIS": {
+      "type": "formula_derived_not_measured",
+      "formula": {
+        "const": -2.4,
+        "FPG": -0.088,
+        "BMI": 0.072
+      },
+      "log10": true,
+      "inputs_are_metabolic_covariates": true,
+      "cited_reference": 26
+    },
+    "GE": {
+      "type": "formula_derived_not_measured",
+      "formula": {
+        "const": 29.196,
+        "age": -0.103,
+        "TG": -2.722,
+        "FPG": -0.592
+      },
+      "log10": false,
+      "inputs_are_metabolic_covariates": true,
+      "cited_reference": 27
+    }
+  },
+  "tautology_check": {
+    "FPIS": {
+      "per_minus_1_mmol_L_FPG_pct": 31.5,
+      "per_plus_1_kg_m2_BMI_pct": 19.9,
+      "per_minus_0.1_mmol_L_HDL_pct": 12.8,
+      "reported_AT_change_pct": 32.6,
+      "reported_RT_change_pct": 28.5
+    },
+    "SPIS": {
+      "per_minus_1_mmol_L_FPG_pct": 22.5,
+      "per_plus_1_kg_m2_BMI_pct": 18.0,
+      "reported_AT_change_pct": 21.7,
+      "reported_RT_change_pct": 27.5
+    },
+    "GE": {
+      "per_minus_1_mmol_L_FPG_pct": 4.5,
+      "reported_AT_change_pct": 6.5,
+      "reported_RT_change_pct": 10.7
+    }
+  },
+  "internal_consistency": {
+    "FPIS": {
+      "AT": 0.972,
+      "RT": 1.022,
+      "CT": 0.973,
+      "C": 0.994
+    },
+    "SPIS": {
+      "AT": 0.964,
+      "RT": 0.971,
+      "CT": 0.962,
+      "C": 0.991
+    },
+    "GE": {
+      "AT": 0.993,
+      "RT": 0.982,
+      "CT": 0.943,
+      "C": 0.982
+    }
+  },
+  "internal_consistency_summary": {
+    "arms": 12,
+    "r_gt_1_impossible": [
+      "RT"
+    ],
+    "min_r": 0.943,
+    "max_r": 1.022
+  },
+  "missing_for_our_meta": {
+    "post_intervention_FPG": "未报告（Table 3 仅基线 FBG）",
+    "post_intervention_BMI": "未报告",
+    "post_intervention_HDL_C": "未报告",
+    "post_intervention_TG": "未报告",
+    "insulin_sensitivity_any": "未报告",
+    "DI": "不可计算（无敏感性）",
+    "fasting_insulin_cpeptide": "Assay described in Methods 2.8 (electrochemiluminescence, Elecsys 2010, Cobas) but NO insulin value reported in any table; no post-intervention FPG/BMI/HDL-C/TG either",
+    "consequence": "Cannot recompute, cannot adjust, cannot derive DI. Correction 2026-10-24: earlier note said 'no insulin assay performed' — that was wrong; an assay is described but its values never enter any reported outcome. The defect is severed provenance, not a missing measurement."
+  },
+  "verdict": {
+    "usable_as": "教科书级反例 —— 关系统计构造层(H2)的证据，不入任何合并",
+    "not_usable_as": [
+      "动态测量层",
+      "替代测量层",
+      "DI 计算",
+      "敏感性分析"
+    ],
+    "reason": "三个'主要结局'全部是 FPG/BMI/HDL-C/TG/age 的解析函数；分泌量从未被测量。报告值与'FPG 下降 1 mmol/L'引起的数学位移量级相当，构成同义反复(tautology)。且其相关分析'ΔFPIS vs ΔFBG r=-0.59' 因 FPIS 定义含 -0.119×FPG 而循环。"
+  },
+  "correction_20261024": {
+    "what_changed": "The assertion 'no insulin or C-peptide assay appears anywhere in the paper' was false as written and has been withdrawn from the manuscript (v3.9).",
+    "evidence": "Methods 2.8: 'Insulin concentrations were measured by electrochemiluminescence immunoassay on an Elecsys 2010 analyzer (Cobas, Roche Diagnostics, Germany).'",
+    "accurate_statement": "An insulin assay is described, but no measured insulin value reaches any reported outcome: all three primary outcomes are closed-form functions of fasting covariates, and no post-intervention covariate values are given.",
+    "also_noted": "The three outcomes are attributed to three different claimed methods in the same section (FPIS: repeated IVGTT; SPIS: modified low-dose glucose infusion test; GE: repeated IVGTT), with no data from any.",
+    "correction_scope": "Abstract bullet, Results sentence, and section 3.6 of the manuscript; plus the section 2.5 classification criterion (reported outcome, not assay method)."
+  }
+}
