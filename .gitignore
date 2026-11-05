@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Build artefacts that carry local absolute paths
+*.log
+build_tmp/
+
+# Credentials — never commit
+.env
+.env.*
+*.token
+.osf-token
