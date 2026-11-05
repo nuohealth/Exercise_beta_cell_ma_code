@@ -142,6 +142,16 @@ counts can be re-derived without repeating the retrieval.
 - Figures are drawn with matplotlib defaults plus explicit rcParams; exact
   pixel-level identity across matplotlib major versions is not guaranteed.
   Numeric outputs are version-stable and are the primary check.
+- **Build tooling is included for transparency, not for execution.**
+  `build_submission_docx_v74.py`, `build_supplement.py`, `check_v74_dom.py` and
+  `count_words.py` generate the submission files and the supplement from our
+  internal working tree. `build_supplement.py` reads
+  `osf_upload/Supplementary_Methods_S1_search_strings.md` and
+  `extraction/fulltext/*.xml`, neither of which is redistributed here — the
+  former is unpublished protocol material and the latter is publisher
+  full text. Running it will raise `FileNotFoundError`; that is expected and
+  does not affect any statistic. Every number in the manuscript is reproduced
+  by `repro/run_all.sh` without these scripts.
 - `build_submission_docx_v74.py` points at a manuscript path in the working
   directory; it is build tooling for our submission, not part of the
   statistical reproduction.
