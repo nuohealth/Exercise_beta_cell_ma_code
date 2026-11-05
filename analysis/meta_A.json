@@ -1,0 +1,251 @@
+{
+  "A_exercise_vs_control": {
+    "DI": {
+      "k": 6,
+      "mu_ln": 0.4791,
+      "se": 0.1074,
+      "pct": 61.5,
+      "ci_lo_pct": 22.5,
+      "ci_hi_pct": 112.8,
+      "p": 0.0066,
+      "tau2": 0.0495,
+      "I2": 75.4,
+      "Q": 20.296,
+      "df": 5,
+      "method": "DL τ² + Knapp-Hartung",
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG"
+      ]
+    },
+    "SI": {
+      "k": 6,
+      "mu_ln": 0.4207,
+      "se": 0.0426,
+      "pct": 52.3,
+      "ci_lo_pct": 36.5,
+      "ci_hi_pct": 69.9,
+      "p": 0.0002,
+      "tau2": 0.0,
+      "I2": 0.0,
+      "Q": 4.823,
+      "df": 5,
+      "method": "DL τ² + Knapp-Hartung",
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG"
+      ]
+    },
+    "SEC": {
+      "k": 5,
+      "mu_ln": 0.0362,
+      "se": 0.1076,
+      "pct": 3.7,
+      "ci_lo_pct": -23.1,
+      "ci_hi_pct": 39.8,
+      "p": 0.7538,
+      "tau2": 0.0538,
+      "I2": 90.2,
+      "Q": 40.625,
+      "df": 4,
+      "method": "DL τ² + Knapp-Hartung",
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG"
+      ]
+    }
+  },
+  "A_sensitivity_one_arm_per_study": {
+    "DI": {
+      "k": 3,
+      "mu_ln": 0.6085,
+      "se": 0.1145,
+      "pct": 83.8,
+      "ci_lo_pct": 12.3,
+      "ci_hi_pct": 200.8,
+      "p": 0.0337,
+      "tau2": 0.0169,
+      "I2": 45.6,
+      "Q": 3.678,
+      "df": 2,
+      "method": "DL τ² + Knapp-Hartung"
+    },
+    "SI": {
+      "k": 3,
+      "mu_ln": 0.4941,
+      "se": 0.0566,
+      "pct": 63.9,
+      "ci_lo_pct": 28.5,
+      "ci_hi_pct": 109.1,
+      "p": 0.0129,
+      "tau2": 0.0,
+      "I2": 0.0,
+      "Q": 1.59,
+      "df": 2,
+      "method": "DL τ² + Knapp-Hartung"
+    },
+    "SEC": {
+      "k": 2,
+      "mu_ln": 0.0957,
+      "se": 0.1563,
+      "pct": 10.0,
+      "ci_lo_pct": -84.9,
+      "ci_hi_pct": 702.1,
+      "p": 0.6504,
+      "tau2": 0.0433,
+      "I2": 88.4,
+      "Q": 8.611,
+      "df": 1,
+      "method": "DL τ² + Knapp-Hartung"
+    }
+  },
+  "per_arm_data": [
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "HED",
+      "q": "DI",
+      "ln": 0.8628899551470398,
+      "se": 0.16085335950863347,
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "HED",
+      "q": "SI",
+      "ln": 0.6043159668533296,
+      "se": 0.1561707556940531,
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "HED",
+      "q": "SEC",
+      "ln": 0.2468600779315258,
+      "se": 0.06360982235087835,
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "MED",
+      "q": "DI",
+      "ln": 0.7178397931503168,
+      "se": 0.16274808236086336,
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "MED",
+      "q": "SI",
+      "ln": 0.4054651081081644,
+      "se": 0.1575640236381383,
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "MED",
+      "q": "SEC",
+      "ln": 0.3220834991691132,
+      "se": 0.06434423301016023,
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "Karstoft 2014",
+      "arm": "IWT",
+      "q": "DI",
+      "ln": 0.5080216964332565,
+      "se": 0.13116726835138387,
+      "src": "text %±SEM"
+    },
+    {
+      "study": "Karstoft 2014",
+      "arm": "IWT",
+      "q": "SI",
+      "ln": 0.40413088509502776,
+      "se": 0.09746328437917222,
+      "src": "text %±SEM"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWMOD",
+      "q": "DI",
+      "ln": 0.5026162977469957,
+      "se": 0.13552476903859137,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWMOD",
+      "q": "SI",
+      "ln": 0.542574322080571,
+      "se": 0.09889769019129266,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWMOD",
+      "q": "SEC",
+      "ln": -0.06597680233078876,
+      "se": 0.08555408044437353,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWVIG",
+      "q": "DI",
+      "ln": 0.19637502284164818,
+      "se": 0.108532266286991,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWVIG",
+      "q": "SI",
+      "ln": 0.3011050927839216,
+      "se": 0.08820599358380829,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWVIG",
+      "q": "SEC",
+      "ln": -0.14536883215782767,
+      "se": 0.09234497349850307,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "HIGHVIG",
+      "q": "DI",
+      "ln": 0.22098672646679193,
+      "se": 0.0957828570939168,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "HIGHVIG",
+      "q": "SI",
+      "ln": 0.40082472855166235,
+      "se": 0.09353263171956532,
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "HIGHVIG",
+      "q": "SEC",
+      "ln": -0.20908844189875272,
+      "se": 0.08720418418205479,
+      "src": "Table 2 (arm − CON)"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+study,pmid,arm,scale,verify,dln_DI,se_DI,dln_Si,se_Si,dln_Sec,se_Sec,residual,resid_se,share_Si,share_Sec,note
+DOSE-EX 2023,37127822,DCON,geometric (log-link),clamp+ISR deconvolution,0.4574,0.1586,0.1655,0.1554,0.2852,0.0612,0.0067,0.2303,0.362,0.623,DI +58% | ISI +18% | ISR +33%
+DOSE-EX 2023,37127822,MED,geometric (log-link),clamp+ISR deconvolution,0.7178,0.1627,0.4055,0.1576,0.3221,0.0643,-0.0097,0.2355,0.565,0.449,DI +105% | ISI +50% | ISR +38%
+DOSE-EX 2023,37127822,HED,geometric (log-link),clamp+ISR deconvolution,0.8629,0.1609,0.6043,0.1562,0.2469,0.0636,0.0117,0.233,0.7,0.286,DI +137% | ISI +83% | ISR +28%
+Karstoft 2014,25099941,IWT vs CON,geometric,2-step clamp + ISR deconvolution,0.508,0.0673,0.4041,0.0499,0.0,,0.1039,,0.795,0.0,ISR 所有阶段无变化（原文）；SI +49.8±14.6%，DI +66.2±21.8%
+Slentz 2009,19592624,CON,arithmetic (mean±SD),IVGTT minimal model,-0.0425,0.0783,-0.1054,0.0709,0.0439,0.0597,0.019,,2.479,-1.032,"AIRg 491→513, Si 3.5→3.1, DI 1562→1497"
+Slentz 2009,19592624,LOWMOD,arithmetic (mean±SD),IVGTT minimal model,0.4601,0.1106,0.4372,0.069,-0.0221,0.0613,0.045,,0.95,-0.048,"AIRg 457→447, Si 3.1→4.8, DI 1270→2012"
+Slentz 2009,19592624,LOWVIG,arithmetic (mean±SD),IVGTT minimal model,0.1539,0.0751,0.1957,0.0525,-0.1015,0.0705,0.0596,,1.272,-0.66,"AIRg 446→402, Si 3.7→4.5, DI 1533→1788"
+Slentz 2009,19592624,HIGHVIG,arithmetic (mean±SD),IVGTT minimal model,0.1785,0.0551,0.2955,0.061,-0.1652,0.0636,0.0482,,1.655,-0.926,"AIRg 506→429, Si 3.2→4.3, DI 1305→1560"
+Eriksen 2007,17763840,3x10 vs 1x30,arithmetic,OGTT ISR deconvolution,,,0.0,,0.0,,,,,,ISR 与 ISIcomposite 两组均无显著变化（5 周，剂量不足）

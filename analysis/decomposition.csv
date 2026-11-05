@@ -1,0 +1,10 @@
+study,pmid,arm,scale,verify,dln_DI,se_DI,dln_Si,se_Si,dln_Sec,se_Sec,residual,resid_se,share_Si,share_Sec,note,include_in_fig
+DOSE-EX 2023,37127822,DCON,geometric (log-link),clamp+ISR deconvolution,0.4574,0.1586,0.1655,0.1554,0.2852,0.0612,0.0067,0.2303,0.362,0.623,DI +58% | ISI +18% | ISR +33%,1
+DOSE-EX 2023,37127822,MED,geometric (log-link),clamp+ISR deconvolution,0.7178,0.1627,0.4055,0.1576,0.3221,0.0643,-0.0097,0.2355,0.565,0.449,DI +105% | ISI +50% | ISR +38%,1
+DOSE-EX 2023,37127822,HED,geometric (log-link),clamp+ISR deconvolution,0.8629,0.1609,0.6043,0.1562,0.2469,0.0636,0.0117,0.233,0.7,0.286,DI +137% | ISI +83% | ISR +28%,1
+Karstoft 2014,25099941,IWT vs CON,geometric,2-step clamp + ISR deconvolution,0.508,0.0673,0.4041,0.0499,0.0,,0.1039,,0.795,0.0,ISR 所有阶段无变化（原文）；SI +49.8±14.6%，DI +66.2±21.8%,1
+Slentz 2009,19592624,CON,"reference (drift from baseline, 8 mo)",IVGTT minimal model,-0.0425,0.0783,-0.1054,0.0709,0.0439,0.0597,0.019,,2.479,-1.032,"CON 自身漂移（非效应量）: DI -0.0425 / Si -0.1054 / Sec +0.0439 ln；AIRg 491→513, Si 3.5→3.1, DI 1562→1497",0
+Slentz 2009,19592624,LOWMOD,arithmetic (net of control),IVGTT minimal model,0.5026,0.135511,0.5426,0.098933,-0.066,0.085567,0.026,0.188342,1.0796,-0.1313,"AIRg 457→447, Si 3.1→4.8, DI 1270→2012 | net of CON: DI +65.3% Si +72.0% Sec -6.4%",1
+Slentz 2009,19592624,LOWVIG,arithmetic (net of control),IVGTT minimal model,0.1964,0.108494,0.3011,0.088222,-0.1454,0.092381,0.0407,0.167596,1.5331,-0.7403,"AIRg 446→402, Si 3.7→4.5, DI 1533→1788 | net of CON: DI +21.7% Si +35.1% Sec -13.5%",1
+Slentz 2009,19592624,HIGHVIG,arithmetic (net of control),IVGTT minimal model,0.221,0.095744,0.4009,0.09353,-0.2091,0.08723,0.0292,0.159762,1.814,-0.9462,"AIRg 506→429, Si 3.2→4.3, DI 1305→1560 | net of CON: DI +24.7% Si +49.3% Sec -18.9%",1
+Eriksen 2007,17763840,3x10 vs 1x30,arithmetic,OGTT ISR deconvolution,,,0.0,,0.0,,,,,,ISR 与 ISIcomposite 两组均无显著变化（5 周，剂量不足）,1

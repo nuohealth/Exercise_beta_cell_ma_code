@@ -1,0 +1,242 @@
+{
+ "DI": [
+  {
+   "study": "DOSE-EX 2023",
+   "arm": "HED",
+   "q": "DI",
+   "ln": 0.8628899551470398,
+   "se": 0.16085335950863347,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "DOSE-EX 2023",
+   "arm": "MED",
+   "q": "DI",
+   "ln": 0.7178397931503168,
+   "se": 0.16274808236086336,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "Karstoft 2014",
+   "arm": "IWT",
+   "q": "DI",
+   "ln": 0.5080216964332565,
+   "se": 0.13116726835138387,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "LOWMOD",
+   "q": "DI",
+   "ln": 0.5026162977469957,
+   "se": 0.13552476903859137,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "LOWVIG",
+   "q": "DI",
+   "ln": 0.19637502284164818,
+   "se": 0.108532266286991,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "HIGHVIG",
+   "q": "DI",
+   "ln": 0.22098672646679193,
+   "se": 0.0957828570939168,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Lee 2012",
+   "arm": "AE",
+   "q": "DI",
+   "ln": 0.17909994444188648,
+   "se": 0.12100527458889233,
+   "stratum": "NGT",
+   "source": "derived_baseline_delta"
+  },
+  {
+   "study": "Lee 2012",
+   "arm": "RE",
+   "q": "DI",
+   "ln": 0.06631283977837862,
+   "se": 0.13226968605249614,
+   "stratum": "NGT",
+   "source": "derived_baseline_delta"
+  },
+  {
+   "study": "Carr 2005",
+   "arm": "",
+   "q": "DI",
+   "ln": 0.3186539632802769,
+   "se": 0.24078653640881367,
+   "stratum": "IGT",
+   "source": "derived_product"
+  }
+ ],
+ "SI": [
+  {
+   "study": "DOSE-EX 2023",
+   "arm": "HED",
+   "q": "SI",
+   "ln": 0.6043159668533296,
+   "se": 0.1561707556940531,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "DOSE-EX 2023",
+   "arm": "MED",
+   "q": "SI",
+   "ln": 0.4054651081081644,
+   "se": 0.1575640236381383,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "Karstoft 2014",
+   "arm": "IWT",
+   "q": "SI",
+   "ln": 0.40413088509502776,
+   "se": 0.09746328437917222,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "LOWMOD",
+   "q": "SI",
+   "ln": 0.542574322080571,
+   "se": 0.09889769019129266,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "LOWVIG",
+   "q": "SI",
+   "ln": 0.3011050927839216,
+   "se": 0.08820599358380829,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "HIGHVIG",
+   "q": "SI",
+   "ln": 0.40082472855166235,
+   "se": 0.09353263171956532,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Lee 2012",
+   "arm": "AE",
+   "q": "SI",
+   "ln": 0.16705408466316607,
+   "se": 0.07692307692307693,
+   "stratum": "NGT",
+   "source": "derived_baseline_delta"
+  },
+  {
+   "study": "Lee 2012",
+   "arm": "RE",
+   "q": "SI",
+   "ln": 0.2436220826577505,
+   "se": 0.05405405405405406,
+   "stratum": "NGT",
+   "source": "derived_baseline_delta"
+  },
+  {
+   "study": "Carr 2005",
+   "arm": "",
+   "q": "SI",
+   "ln": 0.3536400402435784,
+   "se": 0.13993498837668025,
+   "stratum": "IGT",
+   "source": "derived_ratio"
+  }
+ ],
+ "SEC": [
+  {
+   "study": "DOSE-EX 2023",
+   "arm": "HED",
+   "q": "SEC",
+   "ln": 0.2468600779315258,
+   "se": 0.06360982235087835,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "DOSE-EX 2023",
+   "arm": "MED",
+   "q": "SEC",
+   "ln": 0.3220834991691132,
+   "se": 0.06434423301016023,
+   "stratum": "T2D",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "LOWMOD",
+   "q": "SEC",
+   "ln": -0.06597680233078876,
+   "se": 0.08555408044437353,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "LOWVIG",
+   "q": "SEC",
+   "ln": -0.14536883215782767,
+   "se": 0.09234497349850307,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Slentz 2009",
+   "arm": "HIGHVIG",
+   "q": "SEC",
+   "ln": -0.20908844189875272,
+   "se": 0.08720418418205479,
+   "stratum": "NGT",
+   "source": "measured_original"
+  },
+  {
+   "study": "Lee 2012",
+   "arm": "AE",
+   "q": "SEC",
+   "ln": 0.013236236005991584,
+   "se": 0.07552258934592043,
+   "stratum": "NGT",
+   "source": "derived_baseline_delta"
+  },
+  {
+   "study": "Lee 2012",
+   "arm": "RE",
+   "q": "SEC",
+   "ln": -0.19673062089530854,
+   "se": 0.12236767216846899,
+   "stratum": "NGT",
+   "source": "derived_baseline_delta"
+  },
+  {
+   "study": "Carr 2005",
+   "arm": "",
+   "q": "SEC",
+   "ln": -0.03498607696330153,
+   "se": 0.19594987916243103,
+   "stratum": "IGT",
+   "source": "derived_ratio"
+  }
+ ]
+}

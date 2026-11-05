@@ -1,0 +1,511 @@
+{
+  "per_arm_data": [
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "HED",
+      "q": "DI",
+      "ln": 0.8628899551470398,
+      "se": 0.16085335950863347,
+      "pct": 137.0,
+      "ci_lo_pct": 72.9,
+      "ci_hi_pct": 224.8,
+      "weight_pct": 11.0,
+      "stratum": "T2D",
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "MED",
+      "q": "DI",
+      "ln": 0.7178397931503168,
+      "se": 0.16274808236086336,
+      "pct": 105.0,
+      "ci_lo_pct": 49.0,
+      "ci_hi_pct": 182.0,
+      "weight_pct": 11.0,
+      "stratum": "T2D",
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "Karstoft 2014",
+      "arm": "IWT",
+      "q": "DI",
+      "ln": 0.5080216964332565,
+      "se": 0.13116726835138387,
+      "pct": 66.2,
+      "ci_lo_pct": 28.5,
+      "ci_hi_pct": 114.9,
+      "weight_pct": 12.5,
+      "stratum": "T2D",
+      "src": "text %±SEM"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "HIGHVIG",
+      "q": "DI",
+      "ln": 0.22098672646679193,
+      "se": 0.0957828570939168,
+      "pct": 24.7,
+      "ci_lo_pct": 3.4,
+      "ci_hi_pct": 50.5,
+      "weight_pct": 14.2,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWMOD",
+      "q": "DI",
+      "ln": 0.5026162977469957,
+      "se": 0.13552476903859137,
+      "pct": 65.3,
+      "ci_lo_pct": 26.7,
+      "ci_hi_pct": 115.6,
+      "weight_pct": 12.3,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWVIG",
+      "q": "DI",
+      "ln": 0.19637502284164818,
+      "se": 0.108532266286991,
+      "pct": 21.7,
+      "ci_lo_pct": -1.6,
+      "ci_hi_pct": 50.5,
+      "weight_pct": 13.6,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Lee 2012",
+      "arm": "AE",
+      "q": "DI",
+      "ln": 0.17909994444188648,
+      "se": 0.12100527458889233,
+      "pct": 19.6,
+      "ci_lo_pct": -5.6,
+      "ci_hi_pct": 51.6,
+      "weight_pct": 13.0,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 3 (Δ vs control, ITT)"
+    },
+    {
+      "study": "Lee 2012",
+      "arm": "RE",
+      "q": "DI",
+      "ln": 0.06631283977837862,
+      "se": 0.13226968605249614,
+      "pct": 6.9,
+      "ci_lo_pct": -17.5,
+      "ci_hi_pct": 38.5,
+      "weight_pct": 12.4,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 3 (Δ vs control, ITT)"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "HED",
+      "q": "SI",
+      "ln": 0.6043159668533296,
+      "se": 0.1561707556940531,
+      "pct": 83.0,
+      "ci_lo_pct": 34.7,
+      "ci_hi_pct": 148.5,
+      "weight_pct": 7.2,
+      "stratum": "T2D",
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "MED",
+      "q": "SI",
+      "ln": 0.4054651081081644,
+      "se": 0.1575640236381383,
+      "pct": 50.0,
+      "ci_lo_pct": 10.1,
+      "ci_hi_pct": 104.3,
+      "weight_pct": 7.2,
+      "stratum": "T2D",
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "Karstoft 2014",
+      "arm": "IWT",
+      "q": "SI",
+      "ln": 0.40413088509502776,
+      "se": 0.09746328437917222,
+      "pct": 49.8,
+      "ci_lo_pct": 23.8,
+      "ci_hi_pct": 81.3,
+      "weight_pct": 12.6,
+      "stratum": "T2D",
+      "src": "text %±SEM"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "HIGHVIG",
+      "q": "SI",
+      "ln": 0.40082472855166235,
+      "se": 0.09353263171956532,
+      "pct": 49.3,
+      "ci_lo_pct": 24.3,
+      "ci_hi_pct": 79.3,
+      "weight_pct": 13.0,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWMOD",
+      "q": "SI",
+      "ln": 0.542574322080571,
+      "se": 0.09889769019129266,
+      "pct": 72.0,
+      "ci_lo_pct": 41.7,
+      "ci_hi_pct": 108.8,
+      "weight_pct": 12.4,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWVIG",
+      "q": "SI",
+      "ln": 0.3011050927839216,
+      "se": 0.08820599358380829,
+      "pct": 35.1,
+      "ci_lo_pct": 13.7,
+      "ci_hi_pct": 60.6,
+      "weight_pct": 13.7,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Lee 2012",
+      "arm": "AE",
+      "q": "SI",
+      "ln": 0.16705408466316607,
+      "se": 0.07692307692307693,
+      "pct": 18.2,
+      "ci_lo_pct": 1.6,
+      "ci_hi_pct": 37.4,
+      "weight_pct": 15.3,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 3 (Δ vs control, ITT)"
+    },
+    {
+      "study": "Lee 2012",
+      "arm": "RE",
+      "q": "SI",
+      "ln": 0.2436220826577505,
+      "se": 0.05405405405405406,
+      "pct": 27.6,
+      "ci_lo_pct": 14.8,
+      "ci_hi_pct": 41.8,
+      "weight_pct": 18.6,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 3 (Δ vs control, ITT)"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "HED",
+      "q": "SEC",
+      "ln": 0.2468600779315258,
+      "se": 0.06360982235087835,
+      "pct": 28.0,
+      "ci_lo_pct": 13.0,
+      "ci_hi_pct": 45.0,
+      "weight_pct": 15.3,
+      "stratum": "T2D",
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "DOSE-EX 2023",
+      "arm": "MED",
+      "q": "SEC",
+      "ln": 0.3220834991691132,
+      "se": 0.06434423301016023,
+      "pct": 38.0,
+      "ci_lo_pct": 21.6,
+      "ci_hi_pct": 56.5,
+      "weight_pct": 15.2,
+      "stratum": "T2D",
+      "src": "Table 2 vs CON"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "HIGHVIG",
+      "q": "SEC",
+      "ln": -0.20908844189875272,
+      "se": 0.08720418418205479,
+      "pct": -18.9,
+      "ci_lo_pct": -31.6,
+      "ci_hi_pct": -3.7,
+      "weight_pct": 14.2,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWMOD",
+      "q": "SEC",
+      "ln": -0.06597680233078876,
+      "se": 0.08555408044437353,
+      "pct": -6.4,
+      "ci_lo_pct": -20.8,
+      "ci_hi_pct": 10.7,
+      "weight_pct": 14.3,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Slentz 2009",
+      "arm": "LOWVIG",
+      "q": "SEC",
+      "ln": -0.14536883215782767,
+      "se": 0.09234497349850307,
+      "pct": -13.5,
+      "ci_lo_pct": -27.8,
+      "ci_hi_pct": 3.6,
+      "weight_pct": 13.9,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 2 (arm − CON)"
+    },
+    {
+      "study": "Lee 2012",
+      "arm": "AE",
+      "q": "SEC",
+      "ln": 0.013236236005991584,
+      "se": 0.07552258934592043,
+      "pct": 1.3,
+      "ci_lo_pct": -12.6,
+      "ci_hi_pct": 17.5,
+      "weight_pct": 14.7,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 3 (Δ vs control, ITT)"
+    },
+    {
+      "study": "Lee 2012",
+      "arm": "RE",
+      "q": "SEC",
+      "ln": -0.19673062089530854,
+      "se": 0.12236767216846899,
+      "pct": -17.9,
+      "ci_lo_pct": -35.4,
+      "ci_hi_pct": 4.4,
+      "weight_pct": 12.4,
+      "stratum": "normoglycaemic obesity",
+      "src": "Table 3 (Δ vs control, ITT)"
+    }
+  ],
+  "A_exercise_vs_control": {
+    "DI": {
+      "k": 8,
+      "mu_ln": 0.3887,
+      "pct": 47.5,
+      "ci_lo_pct": 16.9,
+      "ci_hi_pct": 86.1,
+      "p": 0.0055,
+      "I2": 75.3,
+      "tau2": 0.0489,
+      "method": "DL tau2 + Knapp-Hartung",
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "SI": {
+      "k": 8,
+      "mu_ln": 0.3553,
+      "pct": 42.7,
+      "ci_lo_pct": 26.7,
+      "ci_hi_pct": 60.7,
+      "p": 0.0002,
+      "I2": 56.7,
+      "tau2": 0.0108,
+      "method": "DL tau2 + Knapp-Hartung",
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "SEC": {
+      "k": 7,
+      "mu_ln": 0.0049,
+      "pct": 0.5,
+      "ci_lo_pct": -17.6,
+      "ci_hi_pct": 22.6,
+      "p": 0.954,
+      "I2": 87.1,
+      "tau2": 0.0435,
+      "method": "DL tau2 + Knapp-Hartung",
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    }
+  },
+  "strata": {
+    "T2D": {
+      "DI": {
+        "k": 3,
+        "pooled": true,
+        "pct": 97.2,
+        "ci_lo_pct": 25.2,
+        "ci_hi_pct": 210.7,
+        "p": 0.0234,
+        "I2": 34.4,
+        "tau2": 0.012,
+        "arms": [
+          "DOSE-EX 2023/HED",
+          "DOSE-EX 2023/MED",
+          "Karstoft 2014/IWT"
+        ]
+      },
+      "SI": {
+        "k": 3,
+        "pooled": true,
+        "pct": 56.6,
+        "ci_lo_pct": 21.7,
+        "ci_hi_pct": 101.4,
+        "p": 0.0166,
+        "I2": 0.0,
+        "tau2": 0.0,
+        "arms": [
+          "DOSE-EX 2023/HED",
+          "DOSE-EX 2023/MED",
+          "Karstoft 2014/IWT"
+        ]
+      },
+      "SEC": {
+        "k": 2,
+        "pooled": true,
+        "pct": 32.8,
+        "ci_lo_pct": -17.6,
+        "ci_hi_pct": 114.2,
+        "p": 0.0838,
+        "I2": 0.0,
+        "tau2": 0.0,
+        "arms": [
+          "DOSE-EX 2023/HED",
+          "DOSE-EX 2023/MED"
+        ]
+      }
+    },
+    "normoglycaemic obesity": {
+      "DI": {
+        "k": 5,
+        "pooled": true,
+        "pct": 25.5,
+        "ci_lo_pct": 4.6,
+        "ci_hi_pct": 50.6,
+        "p": 0.0259,
+        "I2": 31.6,
+        "tau2": 0.0063,
+        "arms": [
+          "Slentz 2009/HIGHVIG",
+          "Slentz 2009/LOWMOD",
+          "Slentz 2009/LOWVIG",
+          "Lee 2012/AE",
+          "Lee 2012/RE"
+        ]
+      },
+      "SI": {
+        "k": 5,
+        "pooled": true,
+        "pct": 37.4,
+        "ci_lo_pct": 15.2,
+        "ci_hi_pct": 63.8,
+        "p": 0.0074,
+        "I2": 64.4,
+        "tau2": 0.0113,
+        "arms": [
+          "Slentz 2009/HIGHVIG",
+          "Slentz 2009/LOWMOD",
+          "Slentz 2009/LOWVIG",
+          "Lee 2012/AE",
+          "Lee 2012/RE"
+        ]
+      },
+      "SEC": {
+        "k": 5,
+        "pooled": true,
+        "pct": -10.0,
+        "ci_lo_pct": -20.3,
+        "ci_hi_pct": 1.5,
+        "p": 0.0725,
+        "I2": 17.2,
+        "tau2": 0.0017,
+        "arms": [
+          "Slentz 2009/HIGHVIG",
+          "Slentz 2009/LOWMOD",
+          "Slentz 2009/LOWVIG",
+          "Lee 2012/AE",
+          "Lee 2012/RE"
+        ]
+      }
+    }
+  },
+  "sensitivity": {
+    "DI": {
+      "k": 4,
+      "pct": 52.9,
+      "ci_lo_pct": -6.4,
+      "ci_hi_pct": 149.7,
+      "p": 0.0706,
+      "I2": 80.5,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE"
+      ]
+    },
+    "SI": {
+      "k": 4,
+      "pct": 40.8,
+      "ci_lo_pct": 13.5,
+      "ci_hi_pct": 74.6,
+      "p": 0.0149,
+      "I2": 50.0,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/RE"
+      ]
+    },
+    "SEC": {
+      "k": 3,
+      "pct": 7.3,
+      "ci_lo_pct": -28.6,
+      "ci_hi_pct": 61.3,
+      "p": 0.5331,
+      "I2": 80.8,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "Slentz 2009/LOWMOD",
+        "Lee 2012/AE"
+      ]
+    }
+  }
+}

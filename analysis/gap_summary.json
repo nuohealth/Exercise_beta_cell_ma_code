@@ -1,0 +1,22 @@
+{
+  "identity": "Δln(DI) = Δln(Si) + Δln(Sec) + residual; residual≈0 when DI is the literal product",
+  "DOSE_EX_residual_range": [
+    -0.0097,
+    0.0117
+  ],
+  "DOSE_EX_SECRETION_SHARE": {
+    "DCON": 0.623,
+    "MED": 0.449,
+    "HED": 0.286
+  },
+  "DOSE_EX_SENSITIVITY_SHARE": {
+    "DCON": 0.362,
+    "MED": 0.565,
+    "HED": 0.7
+  },
+  "Karstoft_secretion_share": 0.0,
+  "Karstoft_sensitivity_share": 0.795,
+  "KEY_CONTRAST": "同为金标准钳夹、同为 DI 上升：DOSE-EX 的分泌贡献 22–57%（ISR +28~38%），Karstoft 的分泌贡献 0%（ISR 全阶段不变）。DI 方向一致，分解方向相反。",
+  "Slentz_pattern": "Si 上升而 AIRg 下降（代偿性抑制），分泌贡献为负",
+  "Eriksen": "5 周剂量不足，两轴均无变化 → 阴性对照"
+}

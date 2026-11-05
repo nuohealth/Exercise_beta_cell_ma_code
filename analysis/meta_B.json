@@ -1,0 +1,55 @@
+{
+  "note": "仅 DOSE-EX 一项研究提供该对比，不做合并；原文 Table 2 直接读取",
+  "HED_vs_DCON": {
+    "DI": {
+      "pct": 50,
+      "ci": [
+        10,
+        104
+      ],
+      "signif": true
+    },
+    "SI": {
+      "pct": 55,
+      "ci": [
+        15,
+        109
+      ],
+      "signif": true
+    },
+    "SEC": {
+      "pct": -4,
+      "ci": [
+        -15,
+        9
+      ],
+      "signif": false
+    }
+  },
+  "MED_vs_DCON": {
+    "DI": {
+      "pct": 29,
+      "ci": [
+        -5,
+        77
+      ],
+      "signif": false
+    },
+    "SI": {
+      "pct": 27,
+      "ci": [
+        -7,
+        71
+      ],
+      "signif": false
+    },
+    "SEC": {
+      "pct": 4,
+      "ci": [
+        -8,
+        18
+      ],
+      "signif": false
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "question": "两层分泌效应方向相反，其差异是否统计显著（交互作用检验）",
+  "strata": {
+    "T2D": {
+      "k": 2,
+      "mu_ln": 0.28404,
+      "se": 0.037609,
+      "pct": 32.8,
+      "tau2": 0.0,
+      "Q": 0.691,
+      "df": 1,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED"
+      ]
+    },
+    "normoglycaemic obesity": {
+      "k": 5,
+      "mu_ln": -0.105652,
+      "se": 0.043592,
+      "pct": -10.0,
+      "tau2": 0.001693,
+      "Q": 4.833,
+      "df": 4,
+      "arms": [
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    }
+  },
+  "M1_subgroup_difference": {
+    "diff_ln": 0.389692,
+    "ratio_pct": 47.7,
+    "se_diff": 0.057573,
+    "z": 6.769,
+    "p_normal": 0.0,
+    "p_kh_t": 0.00107,
+    "df_t": 5,
+    "note": "T2D 层 k=2 共享同一对照，KH t 的 df 偏乐观；以 M2/M3 交叉印证"
+  },
+  "M2_Q_between": {
+    "Q_total": 46.591,
+    "Q_within": 5.524,
+    "Q_between": 41.067,
+    "df": 1,
+    "p": 0.0
+  },
+  "M3_sensitivity_excluding_Lee": {
+    "k": 3,
+    "pct": -13.0,
+    "mu_ln": -0.138966,
+    "se": 0.042302,
+    "tau2": 0.0,
+    "diff_vs_T2D_ln": 0.423006,
+    "p_normal": 0.0,
+    "arms": [
+      "Slentz 2009/HIGHVIG",
+      "Slentz 2009/LOWMOD",
+      "Slentz 2009/LOWVIG"
+    ]
+  },
+  "verdict_opposition_significant": true,
+  "interpretation": "三种检验一致显著，故‘opposition’有统计支持；v3.14 未报告该检验是呈现缺口，而非结论缺陷。建议在 §3.3 补一句交互检验结果，并在 §4.5 将‘what is not compatible with no effect is their opposition’改为引用该检验的表述。",
+  "source": "analysis/meta_A_v313.json :: per_arm_data[q=='SEC']"
+}

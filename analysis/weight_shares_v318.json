@@ -1,0 +1,232 @@
+{
+  "source": "analysis/meta_A_v313.json",
+  "axes": {
+    "DI": {
+      "axis": "disposition index",
+      "arms_total": 8,
+      "studies_total": 4,
+      "weight_total": 100.0,
+      "strata": {
+        "T2D": {
+          "arms": 3,
+          "studies": 2,
+          "study_names": [
+            "DOSE-EX 2023",
+            "Karstoft 2014"
+          ],
+          "weight_pct": 34.5,
+          "share_pct": 34.5
+        },
+        "normoglycaemic obesity": {
+          "arms": 5,
+          "studies": 2,
+          "study_names": [
+            "Lee 2012",
+            "Slentz 2009"
+          ],
+          "weight_pct": 65.5,
+          "share_pct": 65.5
+        }
+      },
+      "per_arm": [
+        {
+          "study": "Slentz 2009",
+          "arm": "HIGHVIG",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 14.2
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "LOWVIG",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 13.6
+        },
+        {
+          "study": "Lee 2012",
+          "arm": "AE",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 13.0
+        },
+        {
+          "study": "Karstoft 2014",
+          "arm": "IWT",
+          "stratum": "T2D",
+          "weight_pct": 12.5
+        },
+        {
+          "study": "Lee 2012",
+          "arm": "RE",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 12.4
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "LOWMOD",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 12.3
+        },
+        {
+          "study": "DOSE-EX 2023",
+          "arm": "HED",
+          "stratum": "T2D",
+          "weight_pct": 11.0
+        },
+        {
+          "study": "DOSE-EX 2023",
+          "arm": "MED",
+          "stratum": "T2D",
+          "weight_pct": 11.0
+        }
+      ]
+    },
+    "SI": {
+      "axis": "insulin sensitivity",
+      "arms_total": 8,
+      "studies_total": 4,
+      "weight_total": 100.0,
+      "strata": {
+        "T2D": {
+          "arms": 3,
+          "studies": 2,
+          "study_names": [
+            "DOSE-EX 2023",
+            "Karstoft 2014"
+          ],
+          "weight_pct": 27.0,
+          "share_pct": 27.0
+        },
+        "normoglycaemic obesity": {
+          "arms": 5,
+          "studies": 2,
+          "study_names": [
+            "Lee 2012",
+            "Slentz 2009"
+          ],
+          "weight_pct": 73.0,
+          "share_pct": 73.0
+        }
+      },
+      "per_arm": [
+        {
+          "study": "Lee 2012",
+          "arm": "RE",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 18.6
+        },
+        {
+          "study": "Lee 2012",
+          "arm": "AE",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 15.3
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "LOWVIG",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 13.7
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "HIGHVIG",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 13.0
+        },
+        {
+          "study": "Karstoft 2014",
+          "arm": "IWT",
+          "stratum": "T2D",
+          "weight_pct": 12.6
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "LOWMOD",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 12.4
+        },
+        {
+          "study": "DOSE-EX 2023",
+          "arm": "HED",
+          "stratum": "T2D",
+          "weight_pct": 7.2
+        },
+        {
+          "study": "DOSE-EX 2023",
+          "arm": "MED",
+          "stratum": "T2D",
+          "weight_pct": 7.2
+        }
+      ]
+    },
+    "SEC": {
+      "axis": "insulin secretion",
+      "arms_total": 7,
+      "studies_total": 3,
+      "weight_total": 100.0,
+      "strata": {
+        "T2D": {
+          "arms": 2,
+          "studies": 1,
+          "study_names": [
+            "DOSE-EX 2023"
+          ],
+          "weight_pct": 30.5,
+          "share_pct": 30.5
+        },
+        "normoglycaemic obesity": {
+          "arms": 5,
+          "studies": 2,
+          "study_names": [
+            "Lee 2012",
+            "Slentz 2009"
+          ],
+          "weight_pct": 69.5,
+          "share_pct": 69.5
+        }
+      },
+      "per_arm": [
+        {
+          "study": "DOSE-EX 2023",
+          "arm": "HED",
+          "stratum": "T2D",
+          "weight_pct": 15.3
+        },
+        {
+          "study": "DOSE-EX 2023",
+          "arm": "MED",
+          "stratum": "T2D",
+          "weight_pct": 15.2
+        },
+        {
+          "study": "Lee 2012",
+          "arm": "AE",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 14.7
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "LOWMOD",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 14.3
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "HIGHVIG",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 14.2
+        },
+        {
+          "study": "Slentz 2009",
+          "arm": "LOWVIG",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 13.9
+        },
+        {
+          "study": "Lee 2012",
+          "arm": "RE",
+          "stratum": "normoglycaemic obesity",
+          "weight_pct": 12.4
+        }
+      ]
+    }
+  }
+}

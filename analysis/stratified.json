@@ -1,0 +1,180 @@
+{
+  "L1_T2D": {
+    "DI": {
+      "k": 3,
+      "pooled": true,
+      "pct": 97.2,
+      "ci": [
+        25.2,
+        210.7
+      ],
+      "p": 0.0234,
+      "I2": 34.4,
+      "tau2": 0.012,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT"
+      ]
+    },
+    "SI": {
+      "k": 3,
+      "pooled": true,
+      "pct": 56.6,
+      "ci": [
+        21.7,
+        101.4
+      ],
+      "p": 0.0166,
+      "I2": 0.0,
+      "tau2": 0.0,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT"
+      ]
+    },
+    "SEC": {
+      "k": 2,
+      "pooled": true,
+      "pct": 32.8,
+      "ci": [
+        -17.6,
+        114.2
+      ],
+      "p": 0.0838,
+      "I2": 0.0,
+      "tau2": 0.0,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED"
+      ]
+    }
+  },
+  "L2_normoglycaemic_obesity": {
+    "DI": {
+      "k": 5,
+      "pooled": true,
+      "pct": 25.5,
+      "ci": [
+        4.6,
+        50.6
+      ],
+      "p": 0.0259,
+      "I2": 31.6,
+      "tau2": 0.0063,
+      "arms": [
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "SI": {
+      "k": 5,
+      "pooled": true,
+      "pct": 37.4,
+      "ci": [
+        15.2,
+        63.8
+      ],
+      "p": 0.0074,
+      "I2": 64.4,
+      "tau2": 0.0113,
+      "arms": [
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "SEC": {
+      "k": 5,
+      "pooled": true,
+      "pct": -10.0,
+      "ci": [
+        -20.3,
+        1.5
+      ],
+      "p": 0.0725,
+      "I2": 17.2,
+      "tau2": 0.0017,
+      "arms": [
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    }
+  },
+  "ALL": {
+    "DI": {
+      "k": 8,
+      "pooled": true,
+      "pct": 47.5,
+      "ci": [
+        16.9,
+        86.1
+      ],
+      "p": 0.0055,
+      "I2": 75.3,
+      "tau2": 0.0489,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "SI": {
+      "k": 8,
+      "pooled": true,
+      "pct": 42.7,
+      "ci": [
+        26.7,
+        60.7
+      ],
+      "p": 0.0002,
+      "I2": 56.7,
+      "tau2": 0.0108,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "SEC": {
+      "k": 7,
+      "pooled": true,
+      "pct": 0.5,
+      "ci": [
+        -17.6,
+        22.6
+      ],
+      "p": 0.954,
+      "I2": 87.1,
+      "tau2": 0.0435,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    }
+  }
+}

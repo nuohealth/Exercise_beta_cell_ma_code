@@ -1,0 +1,128 @@
+{
+ "mechanical_arms": [
+  "Carr 2005/",
+  "Lee 2012/AE",
+  "Lee 2012/RE"
+ ],
+ "measured_only": {
+  "DI": {
+   "k": 6,
+   "pct": 61.5,
+   "kh": [
+    22.5,
+    112.8
+   ],
+   "p": 0.0066,
+   "I2": 75.4,
+   "tau2": 0.0495,
+   "arms": [
+    "DOSE-EX 2023/HED",
+    "DOSE-EX 2023/MED",
+    "Karstoft 2014/IWT",
+    "Slentz 2009/LOWMOD",
+    "Slentz 2009/LOWVIG",
+    "Slentz 2009/HIGHVIG"
+   ]
+  },
+  "SI": {
+   "k": 6,
+   "pct": 52.3,
+   "kh": [
+    36.2,
+    70.3
+   ],
+   "p": 0.0002,
+   "I2": 0.0,
+   "tau2": 0.0,
+   "arms": [
+    "DOSE-EX 2023/HED",
+    "DOSE-EX 2023/MED",
+    "Karstoft 2014/IWT",
+    "Slentz 2009/LOWMOD",
+    "Slentz 2009/LOWVIG",
+    "Slentz 2009/HIGHVIG"
+   ]
+  },
+  "SEC": {
+   "k": 5,
+   "pct": 3.7,
+   "kh": [
+    -23.5,
+    40.6
+   ],
+   "p": 0.7581,
+   "I2": 90.2,
+   "tau2": 0.0538,
+   "arms": [
+    "DOSE-EX 2023/HED",
+    "DOSE-EX 2023/MED",
+    "Slentz 2009/LOWMOD",
+    "Slentz 2009/LOWVIG",
+    "Slentz 2009/HIGHVIG"
+   ]
+  }
+ },
+ "sec_by_provenance": {
+  "clamp_deconvolution": {
+   "k": 4,
+   "pct": 12.2,
+   "kh": [
+    -21.9,
+    61.2
+   ],
+   "p": 0.3875,
+   "I2": 85.2,
+   "tau2": 0.0334
+  },
+  "minimal_model": {
+   "k": 4,
+   "pct": -12.4,
+   "kh": [
+    -25.1,
+    2.5
+   ],
+   "p": 0.0747,
+   "I2": 0.0,
+   "tau2": 0.0
+  }
+ },
+ "sec_by_weight": {
+  "weight_loss": {
+   "k": 2,
+   "pct": 32.8,
+   "kh": [
+    -25.2,
+    136.0
+   ],
+   "p": 0.1005,
+   "I2": 0.0,
+   "tau2": 0.0
+  },
+  "weight_stable": {
+   "k": 6,
+   "pct": -9.5,
+   "kh": [
+    -18.2,
+    0.1
+   ],
+   "p": 0.051,
+   "I2": 0.0,
+   "tau2": 0.0
+  }
+ },
+ "construct_audit": {
+  "audited": 45,
+  "counts": {
+   "FORMULA_SUSPECT": 1,
+   "MEASURED_ALT": 7,
+   "MEASURED_DYN": 27,
+   "UNCLEAR": 10
+  },
+  "pct": {
+   "FORMULA_SUSPECT": 2.2,
+   "MEASURED_ALT": 15.6,
+   "MEASURED_DYN": 60.0,
+   "UNCLEAR": 22.2
+  }
+ }
+}

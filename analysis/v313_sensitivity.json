@@ -1,0 +1,255 @@
+{
+  "DI": {
+    "all": {
+      "label": "all",
+      "k": 8,
+      "pct": 47.5,
+      "lo": 16.9,
+      "hi": 86.1,
+      "p": 0.0055,
+      "I2": 75.3,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "no_DOSEEX": {
+      "label": "no DOSE-EX",
+      "k": 6,
+      "pct": 31.1,
+      "lo": 9.1,
+      "hi": 57.6,
+      "p": 0.0128,
+      "I2": 49.4,
+      "arms": [
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "no_Lee": {
+      "label": "no Lee",
+      "k": 6,
+      "pct": 61.5,
+      "lo": 22.5,
+      "hi": 112.8,
+      "p": 0.0066,
+      "I2": 75.4,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG"
+      ]
+    },
+    "no_Slentz": {
+      "label": "no Slentz",
+      "k": 5,
+      "pct": 57.7,
+      "lo": 3.4,
+      "hi": 140.4,
+      "p": 0.04,
+      "I2": 82.2,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "one_per_study": {
+      "label": "one arm per study",
+      "k": 4,
+      "pct": 52.9,
+      "lo": -6.4,
+      "hi": 149.7,
+      "p": 0.0706,
+      "I2": 80.5,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Lee 2012/AE"
+      ]
+    }
+  },
+  "SI": {
+    "all": {
+      "label": "all",
+      "k": 8,
+      "pct": 42.7,
+      "lo": 26.7,
+      "hi": 60.7,
+      "p": 0.0002,
+      "I2": 56.7,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "no_DOSEEX": {
+      "label": "no DOSE-EX",
+      "k": 6,
+      "pct": 39.0,
+      "lo": 21.0,
+      "hi": 59.7,
+      "p": 0.0017,
+      "I2": 59.6,
+      "arms": [
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "no_Lee": {
+      "label": "no Lee",
+      "k": 6,
+      "pct": 52.3,
+      "lo": 36.5,
+      "hi": 69.9,
+      "p": 0.0002,
+      "I2": 0.0,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG"
+      ]
+    },
+    "no_Slentz": {
+      "label": "no Slentz",
+      "k": 5,
+      "pct": 37.7,
+      "lo": 13.4,
+      "hi": 67.3,
+      "p": 0.0103,
+      "I2": 56.4,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Karstoft 2014/IWT",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "one_per_study": {
+      "label": "one arm per study",
+      "k": 4,
+      "pct": 40.8,
+      "lo": 13.5,
+      "hi": 74.6,
+      "p": 0.0149,
+      "I2": 50.0,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "Karstoft 2014/IWT",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/RE"
+      ]
+    }
+  },
+  "SEC": {
+    "all": {
+      "label": "all",
+      "k": 7,
+      "pct": 0.5,
+      "lo": -17.6,
+      "hi": 22.6,
+      "p": 0.954,
+      "I2": 87.1,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "no_DOSEEX": {
+      "label": "no DOSE-EX",
+      "k": 5,
+      "pct": -10.0,
+      "lo": -20.3,
+      "hi": 1.5,
+      "p": 0.0725,
+      "I2": 17.2,
+      "arms": [
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "no_Lee": {
+      "label": "no Lee",
+      "k": 5,
+      "pct": 3.7,
+      "lo": -23.1,
+      "hi": 39.8,
+      "p": 0.7538,
+      "I2": 90.2,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Slentz 2009/HIGHVIG",
+        "Slentz 2009/LOWMOD",
+        "Slentz 2009/LOWVIG"
+      ]
+    },
+    "no_Slentz": {
+      "label": "no Slentz",
+      "k": 4,
+      "pct": 12.2,
+      "lo": -21.9,
+      "hi": 61.2,
+      "p": 0.3875,
+      "I2": 85.2,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "DOSE-EX 2023/MED",
+        "Lee 2012/AE",
+        "Lee 2012/RE"
+      ]
+    },
+    "one_per_study": {
+      "label": "one arm per study",
+      "k": 3,
+      "pct": 7.3,
+      "lo": -28.6,
+      "hi": 61.3,
+      "p": 0.5331,
+      "I2": 80.8,
+      "arms": [
+        "DOSE-EX 2023/HED",
+        "Slentz 2009/LOWMOD",
+        "Lee 2012/AE"
+      ]
+    }
+  }
+}
