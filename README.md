@@ -61,20 +61,29 @@ ALL CHECKS PASSED
 ### Pipeline order (why this order)
 
 ```
-m1_decomposition.py     Δln(DI) = Δln(Sec) + Δln(Si) + residual, per study arm
-      ↓
-m2_meta.py / m2_v313.py  DerSimonian–Laird τ² with Knapp–Hartung CIs, 3 axes
-      ↓
-m2_stratified.py         same models, stratified by baseline glycaemic state
-      ↓
-m4_interaction_test.py   test that the two strata differ in secretion direction
-      ↓
-arms_v500.py             single frozen arm-level dataset for all figures
-      ↓
-m6_weight_shares.py      stratum share of pooled weight (traceability of 65.5%)
-      ↓
-m3_*.py                  figures
+Stage 1  m1_decomposition.py    Δln(DI) = Δln(Sec) + Δln(Si) + residual, per arm
+         v37_apply_net.py       rescale the Slentz arms to net-of-control
+         ↓
+Stage 2  m2_v313.py             eight-arm models (v313 lineage)
+         m4_interaction_test.py stratum × secretion interaction (KH t, df = 5)
+         ↓
+Stage 3  a1p_add_study.py       add Carr 2005 → nine arms, three strata
+         a1p_meta.py            pooled estimates reported in the paper
+         a1p_strata_sens.py     strata, sensitivity, interaction
+         ↓
+Stage 4  arms_v500.py           single frozen arm set behind every figure
+         s7_sens_v500.py        leave-one-out, one-arm-per-study, weight shares
+         m2_table2_decomposition.py  the ten printed rows of ESM Table 2
+         ↓
+         m3_*.py                figures
 ```
+
+Two lineages are both present on purpose. The **A1′ chain (Stage 3)** produces the
+pooled estimates reported in the manuscript. The **v313 chain (Stage 2)** is
+retained because its eight-arm model is the input to the interaction test quoted
+in the text; the test involves only the two secretion strata, and Carr 2005 sits
+in the impaired-glucose-tolerance stratum, so adding that trial leaves the test
+unchanged. Running only one lineage would leave part of the paper unreproducible.
 
 ## 4. Methods, precisely
 
@@ -85,7 +94,7 @@ expressed as percent change on back-transformation.
 
 **Pooling.** Random-effects model, DerSimonian–Laird estimator of τ², with
 Knapp–Hartung adjustment of the confidence interval. Knapp–Hartung is not
-optional here: with k = 7–8 the unadjusted Wald interval is anticonservative.
+optional here: with k = 8–9 the unadjusted Wald interval is anticonservative.
 
 **Decomposition.** Because DI = Si × Sec, the identity
 `Δln(DI) = Δln(Sec) + Δln(Si)` holds exactly per arm. The residual is reported
@@ -97,30 +106,48 @@ differential clearance, or rounding).
 - Contrast B: exercise added to matched weight loss vs weight loss alone —
   asks whether the exercise effect is independent of weight loss.
 
-**Why k differs across axes.** DI and Si are available for 8 arms; Sec is
-available for 7. One trial (Karstoft 2014) reports DI and Si but no usable
+**Why k differs across axes.** DI and Si are available for 9 arms; Sec is
+available for 8. One trial (Karstoft 2014) reports DI and Si but no usable
 secretion effect size, so it contributes to two axes only. This is a data
 availability fact, not an analytic choice — `arms_v500.py` encodes it once and
 every figure reads from that file so the counts cannot drift between text
 and display.
 
+**Shared controls.** Four DOSE-EX rows, three Slentz rows and two Lee rows come
+from trials whose arms share a single control. Each arm's variance is inflated by
+the shared-control structure (Slentz: se × √2, carried in the standard errors),
+and the diabetes stratum's variance is understated in the usual way. The
+manuscript states this and reports the interaction as exploratory for that
+reason.
+
 ## 5. Headline results (regenerate with `repro/run_all.sh`)
+
+Nine arms from five studies; eight arms carry a secretion estimate, because
+Karstoft 2014 reports no usable secretion effect size.
 
 | Axis | k | Δ | 95% CI | p | I² |
 |---|---|---|---|---|---|
-| Disposition index | 8 | +47.5% | 16.9 to 86.1 | 0.0055 | 75.3 |
-| Insulin sensitivity | 8 | +42.7% | 26.7 to 60.7 | 0.0002 | 56.7 |
-| Insulin secretion | 7 | +0.5% | −17.6 to 22.6 | 0.954 | 87.1 |
+| Disposition index | 9 | +46.6% | +19.5 to +79.9 | 0.0026 | 71.8 |
+| Insulin sensitivity | 9 | +42.3% | +28.2 to +57.9 | 0.0001 | 50.6 |
+| Insulin secretion | 8 | +0.2% | −15.5 to +18.9 | 0.978 | 85.1 |
 
 The secretion interval straddles zero with a point estimate of essentially no
 change, while the sensitivity interval excludes zero by a wide margin. That
-asymmetry is the paper's core claim.
+asymmetry is the paper's core claim — and it is deliberately *not* stated as
+evidence that secretion is unaffected, because a near-null pooled over strata of
+opposite sign averages them away.
 
-Stratified analysis (`analysis/stratified.json`) shows the two strata disagree in
-secretion direction: T2D +32.8% versus normoglycaemic obesity −10.0%. The
-interaction test (`analysis/interaction_test_v314.json`) quantifies how far that
-opposition is from chance; see the manuscript for the pre-specified interpretation
-limits.
+**The near-null is an average of two opposite stratum effects.** By baseline
+glucose status, secretion rose **+32.8% (−17.6 to +114.2, p = 0.084)** in the two
+arms from type 2 diabetes and fell **−10.0% (−20.3 to +1.5, p = 0.073)** in the
+five arms from obesity with normal glucose tolerance. The difference is +47.7%
+(exploratory interaction, Knapp–Hartung t, df = 5, **p = 0.001**). Neither
+stratum is individually significant; what the data support is the opposition,
+not either stratum effect taken alone. Arms sharing one control understate
+variance, so the contrast is reported as exploratory throughout.
+
+The impaired-glucose-tolerance stratum rests on a single trial (Carr 2005) and is
+reported without pooling.
 
 ## 6. Data sources
 
@@ -152,6 +179,13 @@ counts can be re-derived without repeating the retrieval.
   full text. Running it will raise `FileNotFoundError`; that is expected and
   does not affect any statistic. Every number in the manuscript is reproduced
   by `repro/run_all.sh` without these scripts.
+- **Two weight-share files, and only one is current.** `analysis/weight_shares_v318.json`
+  holds the *superseded* eight-arm shares (normal-glucose stratum 65.5%). The
+  figure the manuscript reports (67.8%) comes from `analysis/s7_sensitivity_v500.json`,
+  computed on the nine-arm set by `scripts/s7_sens_v500.py`. The eight-arm file is
+  kept because the manuscript's change log refers to it explicitly ("not the
+  65.5% stated in the previous version"). If you are checking a number in the
+  submitted paper, use the `s7_` file.
 - `build_submission_docx_v74.py` points at a manuscript path in the working
   directory; it is build tooling for our submission, not part of the
   statistical reproduction.
