@@ -1,0 +1,26 @@
+{
+  "records_identified_pubmed": 853,
+  "records_identified_epmc_supplement": 15,
+  "records_after_dedup": 868,
+  "excluded_no_abstract_unresolved": 16,
+  "excluded_title_abstract": 203,
+  "maybe_triage": 12,
+  "screened_title_abstract_included": 637,
+  "L1_pass": 266,
+  "L1_exclusions_by_reason": {
+    "X5_COINTERVENTION": 140,
+    "X10_EXERCISE_NOT_INTERVENTION": 163,
+    "X7_OBS": 47,
+    "X2_GDM": 4,
+    "X4_ACUTE_OR_SHORT": 12,
+    "X0_NO_EXERCISE": 3,
+    "X9_NO_OUTCOME": 2
+  },
+  "L2_construct": {
+    "NO_FULLTEXT": 146,
+    "UNCLEAR": 38,
+    "MEASURED_SURROGATE": 66,
+    "MEASURED_DYNAMIC": 15,
+    "FORMULA_FROM_COVARIATES": 1
+  }
+}

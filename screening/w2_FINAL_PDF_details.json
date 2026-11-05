@@ -1,0 +1,32 @@
+{
+  "25099941": {
+    "decision": "INCLUDE",
+    "tier": "DYNAMIC",
+    "journal": "Diabetologia",
+    "year": 2014,
+    "weeks": 17.4,
+    "clearance": "N",
+    "both_axes": "Y",
+    "arms_note": "CON n=8 / CWT n=12 / IWT n=12；4 个月；高糖钳夹（两级）+ GLP-1 叠加",
+    "secretion": "ISR 由 C 肽解卷积，所有阶段均无变化（原文：no changes in ISR were found either in the OGTT or in the hyperglycaemic clamp, any stage）",
+    "sensitivity": "SI = GIR/(insulin×glucose)，IWT 组 +49.8±14.6% (p<0.001)；GIR 高糖阶段 +34.1±12.6% (p<0.05)",
+    "di": "DI +66.2±21.8% (p<0.001)，仅 IWT 组；CWT 与 CON 无变化",
+    "reason": "★H1 的决定性单点证据：分泌不变 + 敏感性 +50% → DI +66%。这是运动解耦的直接实测，且用金标准钳夹+ISR 解卷积，非替代指标。",
+    "key_numbers": "ISR Δ≈0（全阶段）；SI +49.8%；DI +66.2%；BMI 未报但体重 84.9→80.7 kg"
+  },
+  "17763840": {
+    "decision": "INCLUDE",
+    "tier": "DYNAMIC",
+    "journal": "Diabetologia",
+    "year": 2007,
+    "weeks": 5.0,
+    "clearance": "N",
+    "both_axes": "Y",
+    "arms_note": "1×30 min(n=9) vs 3×10 min(n=9) + 时间对照(n=10)；5 周",
+    "secretion": "ISR（pre-hepatic，C 肽解卷积）与 Btotal（分泌对葡萄糖的斜率）两组均无显著变化",
+    "sensitivity": "ISIcomposite 两组均无显著变化",
+    "di": "未直接报 DI；但 ISR 与 ISI 均无变化 → DI 亦无变化（可推断）",
+    "reason": "★阴性对照：5 周短程运动，分泌与敏感性都不动 → 支持\"效应需足够剂量\"，且证明本文不是所有运动研究都出阳性。",
+    "key_numbers": "ISIcomposite ns；ISR ns；Btotal ns；FPG 3×10 组 −9.6% (p=0.01)"
+  }
+}

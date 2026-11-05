@@ -1,0 +1,31 @@
+{
+  "identified_pubmed": 853,
+  "epmc_supplement_new": 15,
+  "after_dedup": 868,
+  "no_abstract": 16,
+  "title_abstract_excluded": 203,
+  "maybe_triage": 12,
+  "screened_included": 637,
+  "L1_v2_pass": 431,
+  "L1_v2_excluded": {
+    "drug_in_title": 90,
+    "not_trial": 88,
+    "too_short": 19,
+    "no_exercise": 5,
+    "acute": 2,
+    "no_outcome": 2
+  },
+  "core_secretion_subset": 113,
+  "no_fulltext_accessible": 71,
+  "fulltext_verified": 42,
+  "include": 6,
+  "include_by_tier": {
+    "DYNAMIC": 4,
+    "SURROGATE": 1,
+    "LIFESTYLE": 1
+  },
+  "include_with_clearance": 1,
+  "maybe_pending": 4,
+  "construct_examples": 1,
+  "excluded_after_fulltext": 31
+}

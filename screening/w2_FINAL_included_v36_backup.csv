@@ -1,0 +1,9 @@
+decision,tier,pmid,pmcid,year,journal,weeks,clearance,reason,title
+INCLUDE,DYNAMIC,19592624,PMC2752909,2009,Diabetes care,34.76,N,"Slentz 2009, 4臂(低量中强度/高量低强度/高量高强度/对照), IVGTT直接测, 双轴齐",Effects of exercise training intensity on pancreatic beta-cell function.
+INCLUDE,DYNAMIC,22344613,PMC3308269,2012,Diabetes care,17.38,N,"有氧vs抗阻T2D RCT, 双轴齐",Metabolic effects of aerobic training and resistance training in type 2 diabetic subjects: a randomized controlled trial (the RAED2 study).
+INCLUDE,DYNAMIC,22751691,PMC3478522,2012,Diabetes,13.035,Y,"有氧vs抗阻无热量限制, 钳夹/IVGTT, 全库唯一报胰岛素清除率","Effects of aerobic versus resistance exercise without caloric restriction on abdominal fat, intrahepatic lipid, and insulin sensitivity in obese adolescent boys: a randomized, controlled trial."
+INCLUDE,DYNAMIC,37127822,PMC10229430,2023,Nature metabolism,,N,"DOSE-EX 4臂(标准照护/限热量/限热量+运动3次/6次), 高糖钳夹, 等减重前提下的运动臂=全案关键单点证据",Effects of different doses of exercise and diet-induced weight loss on beta-cell function in type 2 diabetes (DOSE-EX): a randomized clinical trial.
+INCLUDE,DYNAMIC,25099941,,2014,Diabetologia,17.4,N,★H1 的决定性单点证据：分泌不变 + 敏感性 +50% → DI +66%。这是运动解耦的直接实测，且用金标准钳夹+ISR 解卷积，非替代指标。,[PDF补回 101385字符] ISR 由 C 肽解卷积，所有阶段均无变化（原文：no changes in ISR were found either
+INCLUDE,DYNAMIC,17763840,,2007,Diabetologia,5.0,N,"★阴性对照：5 周短程运动，分泌与敏感性都不动 → 支持""效应需足够剂量""，且证明本文不是所有运动研究都出阳性。",[PDF补回 60638字符] ISR（pre-hepatic，C 肽解卷积）与 Btotal（分泌对葡萄糖的斜率）两组均无显著变化
+INCLUDE,LIFESTYLE,31969136,PMC6977289,2020,BMC public health,,N,"家系参与生活方式干预 vs 个体干预, 前驱人群, 报告β细胞功能(需全文核具体指标)",Effect of a family and interdisciplinary intervention to prevent T2D: randomized clinical trial.
+INCLUDE,SURROGATE,30363954,PMC6186331,2018,Neural plasticity,26.07,N,"运动训练T2D, OGTT派生指标, 双轴齐",Changes in the Brain-Derived Neurotrophic Factor Are Associated with Improvements in Diabetes Risk Factors after Exercise Training in Adolescents with Obesity: The HEARTY Randomized Controlled Trial.

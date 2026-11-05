@@ -1,0 +1,52 @@
+{
+  "1_identified": {
+    "pubmed": 853,
+    "epmc_supplement_new": 15,
+    "after_dedup": 868
+  },
+  "2_title_abstract": {
+    "no_abstract": 16,
+    "excluded": 203,
+    "maybe_triage": 12,
+    "included_to_L1": 637
+  },
+  "3_L1_rules": {
+    "pass": 431,
+    "excluded": {
+      "drug_in_title": 90,
+      "not_trial": 88,
+      "too_short": 19,
+      "no_exercise": 5,
+      "acute": 2,
+      "no_outcome": 2
+    }
+  },
+  "4_secretion_core": 113,
+  "5_fulltext": {
+    "accessible_xml": 42,
+    "recovered_pdf": 2,
+    "not_accessible": 69
+  },
+  "6_manual_verdict": {
+    "include": 8,
+    "maybe_pending": 4,
+    "construct_example": 1,
+    "excluded_after_fulltext": 31
+  },
+  "7_include_by_tier": {
+    "DYNAMIC": 6,
+    "LIFESTYLE": 1,
+    "SURROGATE": 1
+  },
+  "8_include_pmid": [
+    "17763840",
+    "19592624",
+    "22344613",
+    "22751691",
+    "25099941",
+    "30363954",
+    "31969136",
+    "37127822"
+  ],
+  "9_note": "R 指数(G1)仍不可行：三离散度齐备仅 DOSE-EX 1 项。主分析为一致性缺口，需均值即可。"
+}
